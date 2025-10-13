@@ -87,7 +87,10 @@ A unique **Primary Key** was defined for each of the entity tables to ensure eve
 
 ---
 
-**Author Name**: *Maria Egbuna*     
-**Project**: *ONYX Healthcare (Database Creation and Data Analysis)*    
-**Liscence**: *MIT Liscence*    
+**Author Name**: *Maria Egbuna*
+
+**Project**: *ONYX Healthcare (Database Creation and Data Analysis)*
+
+**Liscence**: *MIT Liscence*
+
 **Date**: *2025-10-13*  
