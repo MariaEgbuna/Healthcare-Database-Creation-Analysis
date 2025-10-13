@@ -35,22 +35,15 @@ The critical first step was moving from a flat, redundant structure to an organi
 
 ---
 
-## Database Creation and Import
-
-The segmented CSV files were imported into a newly created **Relational Database Management System (RDBMS)**, named `[Healthcare Database]`. Each CSV file became its own dedicated table within the database.
-
----
-
 ## Data Cleaning and Validation
 
 * **No Null Values:** All required fields across all tables were populated.
 * **No Duplicate Records:** All primary keys and identity-critical fields were unique.
 * **Format Standardization:** All date and time fields were converted to a consistent SQL standard (`YYYY-MM-DD`).
-* **Logical Constraints:** **`CHECK` constraints** were applied to enforce temporal logic (e.g., `date_of_discharge` >= `date_of_admission`)
 
 ---
 
-## DATABASE OVERVIEW
+## E-R-Diagram
 
 ![The Entity Relationship Diagram](<Images/HealthCare Database Schema.png>)
 
