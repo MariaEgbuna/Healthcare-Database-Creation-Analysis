@@ -1,95 +1,55 @@
-# 🏥 ONYX Healthcare Project
+# 🏥 Hospital Performance & Patient Insights Summary
 
-## Goal
+This analysis provides a comprehensive overview of hospital operations, patient demographics, and treatment outcomes across major healthcare facilities.
 
-* To uncover insights that can drive better healthcare decisions, optimize costs, and improve patient outcomes.
-* Create a compelling Power BI dashboard that tells the story of patient care across hospitals, identifies trends, and helps stakeholders make data-informed decisions.
+## 1. General Overview
 
-## Initial Data Acquisition and Source
+- **Total admissions** are evenly distributed across **Elective (18,655)**, **Urgent (18,576)**, and **Emergency (18,269)** cases.
+- **Average hospital stay** is approximately **15.5 days**, with **treatment costs** averaging **$25,500** per patient.
+- **Readmission rates** are moderate, with most patients returning due to chronic or complex health conditions.
 
-The source data was a single, comprehensive flat file containing a wide variety of information, including:
+## 2. Patient Demographics
 
-* Patient demographics
-* Doctor and hospital details
-* Insurance and coverage information
-* Admission/Discharge dates
-* Test results and treatments
+- **Female patients** represent a slightly higher share of total admissions.
+- The majority of patients fall within the **middle-aged to senior** categories, aligning with higher incidences of chronic illnesses such as **Diabetes, Hypertension, and Arthritis**.
+- **Regional patterns** indicate relatively uniform patient distribution across hospitals, with no major geographical bias.
 
-**Source:** Onyx Data – Power BI Challenge
+## 3. Hospital Performance
 
----
+- **Houston Methodist Hospital** treated the most patients (**20,402**) but has a **lower normal result percentage (~9.8%)**, suggesting a higher concentration of complex cases.
+- Other major centers like **Johns Hopkins**, **UCLA Medical Center**, and **Massachusetts General Hospital** maintain consistent performance levels with **~10% normal result rates**.
+- The data indicates **comparable quality and patient outcomes** across top-performing hospitals.
 
-## Data Segmentation via Power Query
+## 4. Treatment & Medication Patterns
 
-The critical first step was moving from a flat, redundant structure to an organized, normalized one. This was achieved by using **Power Query** to segment the original dataset based on the core entities.
+- Across all major conditions (Diabetes, Hypertension, Arthritis, Asthma, Cancer, and Obesity), the **top five prescribed medications** remain consistent:
+  **Paracetamol, Aspirin, Ibuprofen, Penicillin, and Lipitor.**
+- **Houston Methodist Hospital** leads in prescription volume across most conditions, suggesting higher patient throughput or broader treatment capacity.
+- Medication usage is **highly consistent across hospitals**, implying standardized treatment protocols nationwide.
 
-| Entity | Description |
-| :--- | :--- |
-| **Patients** | Unique patient demographics (Name, Age, Blood type, etc.) |
-| **Doctors** | Unique physician details (Doctor Id, Name) |
-| **Hospitals** | Unique facility information (Name, Location) |
-| **Insurance Providers** | Unique carrier details (Name) |
-| **Admissions** | The core transaction data (Date In/Out, Test Results, etc.) |
+## 5. Admission Type & Cost Impact
 
-**Result:** Five smaller, focused CSV files were created, each representing a primary entity in the healthcare system.
+- **Elective, Urgent, and Emergency admissions** have nearly identical average stays (~15.5 days) and treatment costs (~$25.5K).
+- This consistency implies that **treatment intensity**, not admission urgency, primarily drives hospital costs.
 
----
+## 6. Insurance Provider Performance
 
-## Data Cleaning and Validation
+- **Medicare** covers the largest share of patients (**27,750**, ~50% of total), followed by **UnitedHealthCare (16,650)**, **Aetna (5,550)**, and **Cigna (5,550)**.
+- **Treatment costs** remain stable across providers ($25.4K–$25.7K).
+- **Outcomes distribution** (≈10% normal, 60% abnormal, 30% inconclusive) is similar for all insurers, showing minimal variation in care quality by insurance type.
 
-* **No Null Values:** All required fields across all tables were populated.
-* **No Duplicate Records:** All primary keys and identity-critical fields were unique.
-* **Format Standardization:** All date and time fields were converted to a consistent SQL standard (`YYYY-MM-DD`).
+## 7. Key Takeaways
 
----
+- **Cost and care quality are consistent** across hospitals, admission types, and insurance providers.
+- **Houston Methodist Hospital** is the busiest and handles a significant share of complex cases.
+- **Chronic diseases** (Diabetes, Hypertension, Arthritis) dominate hospital admissions.
+- **Treatment protocols and medication choices** are largely standardized across facilities.
+- **Insurance coverage** influences patient volume more than treatment outcomes.
 
-## E-R-Diagram
-
-![The Entity Relationship Diagram](<Images/HealthCare Database Schema.png>)
-
----
-
-## Descriptive Statistics
-
-* Date Range: May 2019 - May 2024
-* Total Billing Amount/ Revenue : $1.42bn
-* Number of Doctors : 40341
-* Number of Hospitals : 10
-
-### Patients Data
-
-* Number of Patients : 55,000
-
-|Years|Admitted Patients|
-|-----|------------------|
-|2019|7387|
-|2020|11285|
-|2021|10931|
-|2022|11017|
-|2023|11026|
-|2024|3854|
-
-* Gender Distribution
-
-|Gender|Gender %|
-|------|-----------------|
-|Male|40.00|
-|Non-binary|10.00|
-|Female|50.00|
-
-* Age Groups
-
-|Age Groups|Number of Patients|Age Groups %|
-|---------|------------------|--------------|
-|13-17 (Teens)|116|0.21|
-|18-30 (Young Adult)|10383|18.71|
-|31-45 (Mid Adult)|12230|22.04|
-|46-60 (Mature Adult)|12401|22.34|
-|Above 60 (Senior)|20370|36.70|
+**Overall Insight:**  
+The healthcare system demonstrates strong consistency in cost, treatment quality, and clinical practices across major hospitals and insurers, with performance variations driven more by patient case complexity than institutional differences.
 
 ---
-
-## Exploratory Data Analysis
 
 **Author Name**: *Maria Egbuna*     
 **Project**: *ONYX Healthcare Analysis*    
