@@ -33,7 +33,7 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 
 ## 5. Admission Type & Cost Impact
 
-- **Elective, Urgent, and Emergency admissions** have nearly identical average stays (~15.5 days) and treatment costs (~$25.5K).
+- **Elective, Urgent, and Emergency admissions** have nearly identical average stays (15 days) and treatment costs ($25.5K).
 - This consistency implies that **treatment intensity**, not admission urgency, primarily drives hospital costs.
 
 ## 6. Insurance Provider Performance
