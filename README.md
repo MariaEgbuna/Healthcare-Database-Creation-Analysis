@@ -49,6 +49,48 @@ The critical first step was moving from a flat, redundant structure to an organi
 
 ---
 
+## Descriptive Statistics
+
+* Date Range: May 2019 - May 2024
+* Total Billing Amount/ Revenue : $1.42bn
+* Number of Doctors : 40341
+* Number of Hospitals : 10
+
+### Patients Data
+
+* Number of Patients : 55,000
+
+|Years|Admitted Patients|
+|-----|------------------|
+|2019|7387|
+|2020|11285|
+|2021|10931|
+|2022|11017|
+|2023|11026|
+|2024|3854|
+
+* Gender Distribution
+
+|Gender|Gender %|
+|------|-----------------|
+|Male|40.00|
+|Non-binary|10.00|
+|Female|50.00|
+
+* Age Groups
+
+|Age Groups|Number of Patients|Age Groups %|
+|---------|------------------|--------------|
+|13-17 (Teens)|116|0.21|
+|18-30 (Young Adult)|10383|18.71|
+|31-45 (Mid Adult)|12230|22.04|
+|46-60 (Mature Adult)|12401|22.34|
+|Above 60 (Senior)|20370|36.70|
+
+---
+
+## Exploratory Data Analysis
+
 **Author Name**: *Maria Egbuna*     
 **Project**: *ONYX Healthcare Analysis*    
 **Liscence**: *MIT Liscence*    
