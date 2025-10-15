@@ -2,6 +2,10 @@
 
 This analysis provides a comprehensive overview of hospital operations, patient demographics, and treatment outcomes across major healthcare facilities.
 
+## Entity Relationship Diagram
+
+![E-R_Diagram](<Images/HealthCare Database Schema.png>)
+
 ## 1. General Overview
 
 - **Total admissions** are evenly distributed across **Elective (18,655)**, **Urgent (18,576)**, and **Emergency (18,269)** cases.
