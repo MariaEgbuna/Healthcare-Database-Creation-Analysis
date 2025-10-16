@@ -49,7 +49,9 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 - **Treatment costs** remain stable across providers ($25.4K–$25.7K).
 - **Outcomes distribution** (≈10% normal, 60% abnormal, 30% inconclusive) is similar for all insurers, showing minimal variation in care quality by insurance type.
 
-## 7. Key Takeaways
+---
+
+## Key Takeaways
 
 - **Cost and care quality are consistent** across hospitals, admission types, and insurance providers.
 - **Houston Methodist Hospital** is the busiest and handles a significant share of complex cases.
@@ -60,6 +62,7 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 ---
 
 ## Overall Insight
+
 The healthcare system demonstrates strong consistency in cost, treatment quality, and clinical practices across major hospitals and insurers, with performance variations driven more by patient case complexity than institutional differences.
 
 ---
