@@ -2,9 +2,13 @@
 
 This analysis provides a comprehensive overview of hospital operations, patient demographics, and treatment outcomes across major healthcare facilities.
 
+---
+
 ## Entity Relationship Diagram
 
 ![E-R_Diagram](<Images/HealthCare Database Schema.png>)
+
+---
 
 ## 1. General Overview
 
@@ -34,7 +38,7 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 
 ## 5. Admission Type & Cost Impact
 
-- **Elective, Urgent, and Emergency admissions** have nearly identical average stays (~15.5 days) and treatment costs (~$25.5K).
+- **Elective, Urgent, and Emergency admissions** have nearly identical average stays (15 days) and treatment costs ($25.5K).
 - This consistency implies that **treatment intensity**, not admission urgency, primarily drives hospital costs.
 
 ## 6. Insurance Provider Performance
@@ -51,7 +55,9 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 - **Treatment protocols and medication choices** are largely standardized across facilities.
 - **Insurance coverage** influences patient volume more than treatment outcomes.
 
-**Overall Insight:**  
+---
+
+## Overall Insight
 The healthcare system demonstrates strong consistency in cost, treatment quality, and clinical practices across major hospitals and insurers, with performance variations driven more by patient case complexity than institutional differences.
 
 ---
