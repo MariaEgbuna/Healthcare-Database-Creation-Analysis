@@ -18,7 +18,6 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 
 - **Female patients** represent a slightly higher share of total admissions.
 - The majority of patients fall within the **middle-aged to senior** categories, aligning with higher incidences of chronic illnesses such as **Diabetes and Hypertension**.
-- **Regional patterns** indicate relatively uniform patient distribution across hospitals, with no major geographical bias.
 
 ## Hospital Performance
 
