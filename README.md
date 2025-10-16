@@ -8,9 +8,10 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 
 ## 1. General Overview
 
-- **Total admissions** are evenly distributed across **Elective (18,655)**, **Urgent (18,576)**, and **Emergency (18,269)** cases.
-- **Average hospital stay** is approximately **15.5 days**, with **treatment costs** averaging **$25,500** per patient.
-- **Readmission rates** are moderate, with most patients returning due to chronic or complex health conditions.
+![General Overview](<Images/General Overview.png>)
+
+- **Total admissions (55,500)** are evenly distributed across **Elective (18,655)**, **Urgent (18,576)**, and **Emergency (18,269)** cases.
+- **Average hospital stay** is approximately **16 days**, with **treatment costs** averaging **$25,500** per patient.
 
 ## 2. Patient Demographics
 
