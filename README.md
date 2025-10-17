@@ -28,6 +28,8 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 
 ## Treatment & Medication Patterns
 
+![Medication and Treatments](<Images/Treatment and Medication Patterns.png>)
+
 - Across all major conditions (Diabetes, Hypertension, Arthritis, Asthma, Cancer, and Obesity), the **top five prescribed medications** remain consistent:
   **Paracetamol, Aspirin, Ibuprofen, Penicillin, and Lipitor.**
 - **Houston Methodist Hospital** leads in prescription volume across most conditions, suggesting higher patient throughput or broader treatment capacity.
