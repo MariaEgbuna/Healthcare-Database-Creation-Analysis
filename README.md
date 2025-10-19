@@ -28,7 +28,7 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 
 ## Treatment & Medication Patterns
 
-![Medication and Treatments](<Images/Treatment and Medication Patterns.png>)
+![Medication and Treatments](<Images/Medication Patterns.png>)
 
 - Across all major conditions (Diabetes, Hypertension, Arthritis, Asthma, Cancer, and Obesity), the **top five prescribed medications** remain consistent:
   **Paracetamol, Aspirin, Ibuprofen, Penicillin, and Lipitor.**
@@ -37,14 +37,10 @@ This analysis provides a comprehensive overview of hospital operations, patient 
 
 ## Admission Type & Cost Impact
 
+![Admission and Cost](<Images/Admission Type & Cost Impact.png>)
+
 - **Elective, Urgent, and Emergency admissions** have nearly identical average stays (15 days) and treatment costs ($25.5K).
 - This consistency implies that **treatment intensity**, not admission urgency, primarily drives hospital costs.
-
-## Insurance Provider Performance
-
-- **Medicare** covers the largest share of patients (**27,750**, ~50% of total), followed by **UnitedHealthCare (16,650)**, **Aetna (5,550)**, and **Cigna (5,550)**.
-- **Treatment costs** remain stable across providers ($25.4K–$25.7K).
-- **Outcomes distribution** (≈10% normal, 60% abnormal, 30% inconclusive) is similar for all insurers, showing minimal variation in care quality by insurance type.
 
 ---
 
